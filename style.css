@@ -1,0 +1,16 @@
+html, body {
+    max-height: 600px;
+    max-width: 800px;
+    height: 300px;
+    width: 300px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#errorMessage {
+    visibility: hidden;
+}
