@@ -3,6 +3,11 @@ html, body {
     max-width: 800px;
     height: 300px;
     width: 300px;
+    
+}
+
+body {
+    color:black;
 }
 
 .title {
@@ -13,4 +18,10 @@ html, body {
 
 #errorMessage {
     visibility: hidden;
+}
+
+.inputBoxes {
+    
+    height: auto;
+    width: auto;
 }
