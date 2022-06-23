@@ -63,11 +63,11 @@ else {
 
 
 function save() {
-  var name = document.getElementById("textbox").value;
-  var name2 = document.getElementById("textbox2").value;
-  var name3 = document.getElementById("textbox3").value;
-  var name4 = document.getElementById("textbox4").value;
-  var name5 = document.getElementById("textbox5").value;
+  var name = document.getElementById("textbox").value.toString().toLowerCase();
+  var name2 = document.getElementById("textbox2").value.toString().toLowerCase();
+  var name3 = document.getElementById("textbox3").value.toString().toLowerCase();
+  var name4 = document.getElementById("textbox4").value.toString().toLowerCase();
+  var name5 = document.getElementById("textbox5").value.toString().toLowerCase();
 
   var names_formatted =
     '["' + name + "," + name2 + "," + name3 + "," + name4 + "," + name5 + '"]';
