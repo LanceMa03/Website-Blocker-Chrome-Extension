@@ -1,27 +1,73 @@
 html, body {
-    max-height: 600px;
-    max-width: 800px;
-    height: 300px;
-    width: 300px;
+   
+    height: 350px;
+    width: auto;
     
 }
 
 body {
     color:black;
+    
 }
 
 .title {
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 #errorMessage {
-    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .inputBoxes {
-    
     height: auto;
     width: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: auto;
+}
+
+form {
+    
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.currentURL {
+    width: auto;
+    height: 30px;
+    border: 5px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden !important;
+}
+
+.but {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+button {
+    padding: 3px;
+    width: 3.5rem;
+}
+
+#errorMessage {
+    color:red;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+#submitButton2 {
+    visibility: hidden;
 }

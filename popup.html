@@ -5,35 +5,48 @@
   </head>
   <body>
     <h1 class="title">WEBSITE BLOCKER</h1>
+
+    <div class="currentURL" id="currentLink">
+
+
+    </div>
+
     <h2 class="title">Enter URL Below</h1>
+
 
     <div class="inputBoxes">
       <form id="formBox">
-        <input type="text" id="textbox"/>
+        <input type="text" id="textbox" size="25"/>
         
       </form>
 
       <form id="formBox">
-        <input type="text" id="textbox2"/>
+        <input type="text" id="textbox2" size="25"/>
       </form>
 
       <form id="formBox">
-        <input type="text" id="textbox3"/>
+        <input type="text" id="textbox3" size="25"/>
       </form>
 
       <form id="formBox">
-        <input type="text" id="textbox4"/>
+        <input type="text" id="textbox4" size="25" />
       </form>
 
       <form id="formBox">
-        <input type="text" id="textbox5"/>
+        <input type="text" id="textbox5" size="25"/>
       </form>
 
     </div>
-    <input type="submit" id="submitButton" value="Save" onclick="save()"/>
-      <button type="submit" id="clearButton" value="Clear LS" onclick="clear()">Clear</button>
 
-    <h3 id ="errorMessage">You can only have 5 websites!</h2>
+    <div class="but">
+    <button type="submit" id="submitButton" value="Save" onclick="save()" style="">Save</button>
+    <button type="submit" id="submitButton2" value="Save" onclick="save()">Save</button>
+    <button type="submit" id="clearButton" value="Clear LS" onclick="clear()">Clear</button>
+
+    </div>
+    
+
+    <h3 id ="errorMessage"> </h3>
 
 
     <script src="popup_script.js"></script>
