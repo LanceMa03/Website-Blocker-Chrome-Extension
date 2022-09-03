@@ -2,11 +2,14 @@ html, body {
    
     height: 350px;
     width: auto;
+    background-color: #002B5B;
     
 }
 
 body {
-    color:black;
+    color:#8FE3CF;
+    background-color: #002B5B;
+    font-family: 'open-sans-bold', sans-serif;
     
 }
 
@@ -14,7 +17,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 
 #errorMessage {
@@ -29,23 +31,54 @@ body {
     padding-left: 3rem;
     padding-right: 3rem;
     margin: auto;
+    
+    font-family: 'librebaskerville-regular', serif !important;
 }
 
 form {
-    
     text-align: center;
     vertical-align: middle;
 }
 
+#textbox {
+    border: 3px solid #256D85;
+    background-color: #316e7d;
+    color: #8FE3CF;
+}
+
+#textbox2 {
+    border: 3px solid #256D85;
+    background-color: #316e7d;
+    color: #8FE3CF;
+}
+
+#textbox3 {
+    border: 3px solid #256D85;
+    background-color: #316e7d;
+    color: #8FE3CF;
+}
+
+#textbox4 {
+    border: 3px solid #256D85;
+    background-color: #316e7d;
+    color: #8FE3CF;
+}
+
+#textbox5 {
+    border: 3px solid #256D85;
+    background-color: #316e7d;
+    color: #8FE3CF;
+}
 
 .currentURL {
-    width: auto;
     height: 30px;
-    border: 5px solid green;
+    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow-x: hidden !important;
+    border: 5px solid #2B4865;
+    font-family: 'open-sans-bold', sans-serif;
 }
 
 .but {
@@ -59,15 +92,29 @@ form {
 button {
     padding: 3px;
     width: 3.5rem;
+    background-color: #2B4865;
+    color: #8FE3CF;
+}
+
+#submitButton {
+    cursor: pointer;
+    border: 3px solid #256D85;
+}
+
+#clearButton {
+    cursor: pointer;
+    border: 3px solid #256D85;
 }
 
 #errorMessage {
     color:red;
     font-size: 20px;
     text-transform: uppercase;
+    margin: 2px;
 
 }
 
 #submitButton2 {
     visibility: hidden;
+    margin: 0px !important;
 }

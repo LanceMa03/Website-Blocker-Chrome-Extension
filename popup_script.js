@@ -185,7 +185,8 @@ function clear() {
   document.getElementById("textbox").placeholder = placeholder_link;
   document.getElementById("textbox2").placeholder = placeholder_link;
   document.getElementById("textbox3").placeholder = placeholder_link;
-  document.getElementById("textbox4").placeholder = placeholder_link;
+ 
+  
   document.getElementById("textbox5").placeholder = placeholder_link;
 }
 
