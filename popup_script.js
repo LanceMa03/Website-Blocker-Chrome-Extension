@@ -17,35 +17,6 @@ setInterval(function () {
   });
 }, 1000);
 
-/*
-
-setInterval(function() {
-
-
-  chrome.runtime.onMessage.addListener(
-    function(request, sender, sendResponse) {
-  
-  
-      var cur_link = request.greeting;
-      console.log(request.greeting);
-  
-      document.getElementById("currentLink").innerHTML = cur_link;
-  
-    
-      console.log(sender.tab ?
-                  "from a content script:" + sender.tab.url :
-                  "from the extension");
-  
-                  
-      if (request.greeting == "hello")
-        sendResponse({farewell: "goodbye"});
-    }
-  );
-  
-
-}, 1000)
-*/
-
 const placeholder_link = "www.youtube.com";
 
 // Checks if key exists

@@ -1,12 +1,4 @@
-/*
-setInterval(function() {
 
-  chrome.runtime.sendMessage({greeting: cur}, function(response) {
-    console.log(response.farewell);
-  });
-
-}, 1000)
-*/
 
 setInterval(function () {
   var cur = window.location.hostname;
@@ -77,46 +69,6 @@ setInterval(function () {
           "https://lancema03.github.io/Redirect-Website/"
         );
     }
-
-
-    /*
-    switch (window.location.hostname) {
-      case website1:
-        console.log("tyest");
-        window.location.replace(
-          "https://lancema03.github.io/Redirect-Website/"
-        );
-        break;
-      case website2:
-        console.log("tyest");
-        window.location.replace(
-          "https://lancema03.github.io/Redirect-Website/"
-        );
-        break;
-
-      case website3:
-        console.log("tyest");
-        window.location.replace(
-          "https://lancema03.github.io/Redirect-Website/"
-        );
-        break;
-
-      case website4:
-        console.log("tyest");
-        window.location.replace(
-          "https://lancema03.github.io/Redirect-Website/"
-        );
-        break;
-
-      case website5:
-        console.log("tyest");
-        window.location.replace(
-          "https://lancema03.github.io/Redirect-Website/"
-        );
-        break;
-        
-    }
-    */
   });
 }, 1000);
 
